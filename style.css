@@ -1,6 +1,6 @@
 :root {
     --primary-color: #29a598;
-    --text-color: #394c4a;
+    --text-color: palegreen;
     --background-light: #ffffff;
     --header-height: 100vh;
 }
@@ -32,6 +32,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: palegreen;
+    padding: 10px;
+}
+
+.nav a {
+    color: cyan;
+    text-decoration:wavy;
+}
+
+.nav a:hover {
+    color: purple;
+}
 }
 
 nav {
@@ -39,8 +54,9 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: palegreen (0, 0, 0, 0.5);
     padding: 15px 0;
+    box-shadow: 10px 5px 5px palegreen
 }
 
 nav ul {
@@ -56,25 +72,43 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: cyan;
     text-decoration: none;
     font-family:fantasy
     font-size: 1.2rem;
+    
 }
 
 .header-content img {
     max-width: 250px;
     border-radius: 50%;
+    box-shadow: 10px 5px 5px palegreen;
+    
 }
 
 .header-content h1, .header-content p {
     margin: 0.5rem 0;
     font-family:fantasy
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: light;
+    padding: 20px;
+    
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: cyan;
+}
+    
 
 }
 
-#about {
-    background-color: #ffffff; 
     padding-left: 40px;
     padding-right: 40px;
     margin: 40px;
@@ -89,11 +123,12 @@ nav ul li a {
 }
 
 #portfolio {
-    background-color: #0fbfbf; 
+    background-color: #F78FA9;
     padding: 15px;
     border-radius: 0.5%;
     text-align: center;
     margin-bottom: 10px;
+    box-shadow: 20px 10px 10px palegreen;
 }
 
 .project {
@@ -103,13 +138,15 @@ nav ul li a {
     margin: 10px;
     display: inline-block;
     line-height: 200px;
+    box-shadow: 10px 5px 5px palegreen
 }
 
 #contact {
-    background-color: #ffbc4b; 
+    background-color: #FF9CF2; 
     padding: 15px;
     border-radius: 0.5%;
     text-align: center;
+    
 }
 
 .td-btn {
@@ -117,6 +154,7 @@ nav ul li a {
     text-transform: uppercase;
     transition: background-color 0.2s ease-in-out;
      background-color: #0fbfbf; 
+     box-shadow: 10px 5px 5px palegreen;
 
 }
 
@@ -124,13 +162,16 @@ footer {
     background-color: #f4f4f4;
     text-align: center;
     padding: 10px;
+    box-shadow: 10px 5px 5px palegreen;
 }
 
 /* Additional Styles */
 h2 {
     color: #333;
+    text-shadow: 2px 2px 1px palegreen;
     font-family: fantasy
-    font-size: 2.3rem;
+    font-size: 14px;
+    box-shadow: 10px 5px 5px
 }
 
 a {
@@ -140,6 +181,7 @@ a {
 
 a:hover {
     color: #208479;
+    box-shadow: 10px 5px 5px palegreen;
 }
 
 @media (max-width: 768px) {
@@ -151,5 +193,6 @@ a:hover {
   .profile-photo {
         width: 50%; 
         margin: 0 auto; 
+        box-shadow: 10px 5px 5px palegreen;
     }
 }
