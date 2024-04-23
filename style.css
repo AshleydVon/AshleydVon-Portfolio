@@ -3,7 +3,9 @@
     --text-color: palegreen;
     --background-light: #ffffff;
     --header-height: 100vh;
+    
 }
+
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -14,16 +16,18 @@ html {
 }
 
 body {
+    background-color: #f73f8f;
     margin: 0;
     padding: 0;
     font-family:fantasy
     color: #394c4a;
     line-height: 1.5;
     overflow-x: hidden;
+    
 }
 
 .header-background {
-    background: linear-gradient(rgba(236, 8, 46, 0.7), rgba(255, 254, 253, 0.9)), 
+    background: linear-gradient(rgba(231, 8, 112, 0.7), rgba(238, 125, 11, 0.9)), 
                 url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
     background-size: cover;
     text-align: center;
@@ -37,6 +41,20 @@ body {
     justify-content: space-between;
     background-color: palegreen;
     padding: 10px;
+    
+    .box {
+        display: flex;
+      }
+      <div class=“box”>
+      <div>One</div>
+      <div>Two</div>
+      </div>
+
+    </div>
+    .container{
+        display: flex;}
+        .container{
+    flex-direction: row;}
 }
 
 .nav a {
@@ -95,6 +113,7 @@ nav ul li a {
     background-color: light;
     padding: 20px;
     
+    
 }
 
 .nav a {
@@ -123,7 +142,7 @@ nav ul li a {
 }
 
 #portfolio {
-    background-color: #F78FA9;
+    background-color: #fb4380;
     padding: 15px;
     border-radius: 0.5%;
     text-align: center;
@@ -142,7 +161,7 @@ nav ul li a {
 }
 
 #contact {
-    background-color: #FF9CF2; 
+    background-color: #f6639b; 
     padding: 15px;
     border-radius: 0.5%;
     text-align: center;
@@ -158,16 +177,22 @@ nav ul li a {
 
 }
 
-footer {
-    background-color: #f4f4f4;
+
+footer { 
+    background-color: #f09a30;
     text-align: center;
     padding: 10px;
     box-shadow: 10px 5px 5px palegreen;
+    
+    
 }
 
 /* Additional Styles */
+
+
 h2 {
-    color: #333;
+    background-color: palegreen;
+    color: #333333;
     text-shadow: 2px 2px 1px palegreen;
     font-family: fantasy
     font-size: 14px;
@@ -182,6 +207,7 @@ a {
 a:hover {
     color: #208479;
     box-shadow: 10px 5px 5px palegreen;
+    
 }
 
 @media (max-width: 768px) {
