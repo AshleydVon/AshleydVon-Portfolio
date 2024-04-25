@@ -5,11 +5,14 @@
     --header-height: 100vh;
     
 }
+/*set background/text color, header height*/
 
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+    /*set box/border/size for design. Researched options*/
 
 html {
     font-size: 110%;
@@ -25,6 +28,9 @@ body {
     overflow-x: hidden;
     
 }
+    /*Set background color, font, font color and line*/
+    /*height. Experimented with different fonts/marging/padding/**/
+
 
 .header-background {
     background: linear-gradient(rgba(231, 8, 112, 0.7), rgba(238, 125, 11, 0.9)), 
@@ -42,6 +48,8 @@ body {
     background-color: palegreen;
     padding: 10px;
     
+            /*Set background with linear gradient, adjusted 
+
     .box {
         display: flex;
       }
