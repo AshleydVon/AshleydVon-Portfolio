@@ -77,6 +77,13 @@ body {
 }
 }
 
+    /* Set text to wavy, flex, color and hover property*/
+    /* Set hover, chose color*/
+
+
+/* Following uls set for combining color schemes, fonts
+    pxs, justify content, margins to ensure overall
+    congruency with themes*/
 
 nav {
     width: 100%;
@@ -138,7 +145,8 @@ nav ul li a {
 .nav a:hover {
     color: cyan;
 }
-    
+    /* Set header content. Researched adding images, borders,
+    assigned continuous theme with font/color */
 
 }
 
@@ -173,6 +181,8 @@ nav ul li a {
     line-height: 200px;
     box-shadow: 10px 5px 5px palegreen
 }
+  /* Set project boxes and assigned border, back ground, 
+  padding, and researched text transform and transition */
 
 #contact {
     background-color: #f6639b; 
@@ -229,10 +239,13 @@ a:hover {
         display: block;
         margin: 10px 0;
     }
-  
+    /* set media perimeters in px, adjusted, tested with
+    margins and display options */
+
   .profile-photo {
         width: 50%; 
         margin: 0 auto; 
         box-shadow: 10px 5px 5px palegreen;
     }
 }
+/* Set box shadow to conform with color scheme. */
